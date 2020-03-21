@@ -1,0 +1,142 @@
+[
+  {
+    "productName": "Refined Concrete Ball",
+    "productColor": "salmon",
+    "productPrice": "628.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Rustic Plastic Chips",
+    "productColor": "indigo",
+    "productPrice": "114.00",
+    "quantity": 1,
+    "isInStock": true
+  },
+  {
+    "productName": "Intelligent Frozen Fish",
+    "productColor": "fuchsia",
+    "productPrice": "607.00",
+    "quantity": 1,
+    "isInStock": true
+  },
+  {
+    "productName": "Licensed Steel Shoes",
+    "productColor": "tan",
+    "productPrice": "382.00",
+    "quantity": 2,
+    "isInStock": true
+  },
+  {
+    "productName": "Generic Plastic Fish",
+    "productColor": "blue",
+    "productPrice": "621.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Refined Cotton Gloves",
+    "productColor": "maroon",
+    "productPrice": "623.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Rustic Plastic Cheese",
+    "productColor": "violet",
+    "productPrice": "871.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Refined Rubber Shoes",
+    "productColor": "ivory",
+    "productPrice": "704.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Refined Plastic Salad",
+    "productColor": "indigo",
+    "productPrice": "940.00",
+    "quantity": 4,
+    "isInStock": true
+  },
+  {
+    "productName": "Small Granite Chair",
+    "productColor": "black",
+    "productPrice": "293.00",
+    "quantity": 1,
+    "isInStock": true
+  },
+  {
+    "productName": "Handcrafted Fresh Bike",
+    "productColor": "white",
+    "productPrice": "73.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Refined Soft Chips",
+    "productColor": "plum",
+    "productPrice": "512.00",
+    "quantity": 0,
+    "isInStock": false
+  },
+  {
+    "productName": "Small Granite Towels",
+    "productColor": "orchid",
+    "productPrice": "267.00",
+    "quantity": 0,
+    "isInStock": false
+  },
+  {
+    "productName": "Ergonomic Cotton Chair",
+    "productColor": "orchid",
+    "productPrice": "759.00",
+    "quantity": 2,
+    "isInStock": true
+  },
+  {
+    "productName": "Generic Frozen Bacon",
+    "productColor": "red",
+    "productPrice": "961.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Handmade Frozen Towels",
+    "productColor": "sky blue",
+    "productPrice": "247.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Unbranded Granite Fish",
+    "productColor": "silver",
+    "productPrice": "895.00",
+    "quantity": 0,
+    "isInStock": false
+  },
+  {
+    "productName": "Refined Wooden Bacon",
+    "productColor": "salmon",
+    "productPrice": "93.00",
+    "quantity": 1,
+    "isInStock": true
+  },
+  {
+    "productName": "Generic Rubber Shoes",
+    "productColor": "orange",
+    "productPrice": "573.00",
+    "quantity": 3,
+    "isInStock": true
+  },
+  {
+    "productName": "Rustic Steel Chips",
+    "productColor": "ivory",
+    "productPrice": "96.00",
+    "quantity": 3,
+    "isInStock": true
+  }
+]
