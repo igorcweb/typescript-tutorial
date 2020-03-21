@@ -4,11 +4,20 @@
   "description": "Typescript Tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node index"
   },
   "author": "Igor Chernyshev",
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@types/faker": "^4.1.10",
+    "@types/node": "^13.9.2",
+    "ts-node": "^8.7.0"
   }
 }
