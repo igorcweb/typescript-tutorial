@@ -7,7 +7,7 @@ for (let i = 0; i < 20; i++) {
   const product = {
     name: faker.commerce.productName(),
     color: faker.commerce.color(),
-    price: faker.commerce.price(),
+    price: parseFloat((Math.random() * 901 + 100).toFixed(2)),
     numberInStock: Math.floor(Math.random() * 5),
     isInStock: false
   };
