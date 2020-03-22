@@ -9,7 +9,7 @@ interface Product {
   isInStock: boolean;
 }
 
-const products: Product[] = [];
+const products = [];
 
 for (let i: number = 0; i < 20; i++) {
   const product = {
@@ -22,7 +22,11 @@ for (let i: number = 0; i < 20; i++) {
 
   product.isInStock = product.numberInStock > 0;
 
-  products.push(product);
+  function validateProduct(): Product {
+    return product;
+  }
+
+  products.push(validateProduct());
 }
 
 const jsonProducts: string = JSON.stringify(products);
