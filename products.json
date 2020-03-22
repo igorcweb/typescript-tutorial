@@ -1,1 +1,142 @@
-[{"name":"Awesome Fresh Salad","color":"blue","price":936.57,"numberInStock":0,"isInStock":false},{"name":"Awesome Metal Fish","color":"violet","price":539.88,"numberInStock":4,"isInStock":true},{"name":"Incredible Soft Soap","color":"tan","price":413.86,"numberInStock":2,"isInStock":true},{"name":"Handcrafted Steel Gloves","color":"cyan","price":934.37,"numberInStock":4,"isInStock":true},{"name":"Intelligent Cotton Soap","color":"ivory","price":529.87,"numberInStock":1,"isInStock":true},{"name":"Unbranded Plastic Bike","color":"lavender","price":870.47,"numberInStock":4,"isInStock":true},{"name":"Gorgeous Metal Mouse","color":"sky blue","price":838.2,"numberInStock":0,"isInStock":false},{"name":"Fantastic Granite Shoes","color":"turquoise","price":846.45,"numberInStock":1,"isInStock":true},{"name":"Fantastic Steel Computer","color":"tan","price":992.32,"numberInStock":3,"isInStock":true},{"name":"Practical Soft Pizza","color":"pink","price":120.39,"numberInStock":3,"isInStock":true},{"name":"Refined Steel Shoes","color":"azure","price":793.83,"numberInStock":4,"isInStock":true},{"name":"Intelligent Metal Soap","color":"white","price":443.22,"numberInStock":2,"isInStock":true},{"name":"Tasty Cotton Computer","color":"ivory","price":300.93,"numberInStock":1,"isInStock":true},{"name":"Handcrafted Soft Computer","color":"blue","price":385.77,"numberInStock":0,"isInStock":false},{"name":"Handmade Steel Chips","color":"salmon","price":599.7,"numberInStock":2,"isInStock":true},{"name":"Tasty Steel Keyboard","color":"teal","price":148.54,"numberInStock":4,"isInStock":true},{"name":"Ergonomic Granite Chair","color":"blue","price":363.67,"numberInStock":4,"isInStock":true},{"name":"Fantastic Fresh Bike","color":"white","price":789.29,"numberInStock":0,"isInStock":false},{"name":"Handmade Steel Sausages","color":"indigo","price":922.51,"numberInStock":1,"isInStock":true},{"name":"Tasty Cotton Hat","color":"sky blue","price":173.7,"numberInStock":3,"isInStock":true}]
+[
+  {
+    "name": "Licensed Plastic Sausages",
+    "color": "red",
+    "price": 487.7,
+    "numberInStock": 4,
+    "isInStock": true
+  },
+  {
+    "name": "Incredible Rubber Shoes",
+    "color": "indigo",
+    "price": 879.26,
+    "numberInStock": 0,
+    "isInStock": false
+  },
+  {
+    "name": "Rustic Steel Soap",
+    "color": "magenta",
+    "price": 257.35,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Generic Fresh Pants",
+    "color": "sky blue",
+    "price": 680.64,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Practical Soft Fish",
+    "color": "ivory",
+    "price": 223.92,
+    "numberInStock": 1,
+    "isInStock": true
+  },
+  {
+    "name": "Refined Rubber Tuna",
+    "color": "silver",
+    "price": 919.28,
+    "numberInStock": 2,
+    "isInStock": true
+  },
+  {
+    "name": "Small Metal Mouse",
+    "color": "sky blue",
+    "price": 176.31,
+    "numberInStock": 2,
+    "isInStock": true
+  },
+  {
+    "name": "Unbranded Granite Bike",
+    "color": "gold",
+    "price": 985.4,
+    "numberInStock": 2,
+    "isInStock": true
+  },
+  {
+    "name": "Awesome Wooden Car",
+    "color": "indigo",
+    "price": 699.14,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Handmade Granite Soap",
+    "color": "sky blue",
+    "price": 438.81,
+    "numberInStock": 4,
+    "isInStock": true
+  },
+  {
+    "name": "Generic Cotton Cheese",
+    "color": "teal",
+    "price": 634.36,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Sleek Steel Soap",
+    "color": "silver",
+    "price": 735.81,
+    "numberInStock": 4,
+    "isInStock": true
+  },
+  {
+    "name": "Refined Metal Salad",
+    "color": "indigo",
+    "price": 634.59,
+    "numberInStock": 0,
+    "isInStock": false
+  },
+  {
+    "name": "Rustic Cotton Chair",
+    "color": "indigo",
+    "price": 476.1,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Gorgeous Steel Gloves",
+    "color": "indigo",
+    "price": 867.92,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Tasty Metal Bacon",
+    "color": "mint green",
+    "price": 154.19,
+    "numberInStock": 4,
+    "isInStock": true
+  },
+  {
+    "name": "Practical Fresh Shoes",
+    "color": "salmon",
+    "price": 467.36,
+    "numberInStock": 3,
+    "isInStock": true
+  },
+  {
+    "name": "Fantastic Wooden Bacon",
+    "color": "maroon",
+    "price": 630.94,
+    "numberInStock": 2,
+    "isInStock": true
+  },
+  {
+    "name": "Incredible Steel Mouse",
+    "color": "salmon",
+    "price": 183.02,
+    "numberInStock": 4,
+    "isInStock": true
+  },
+  {
+    "name": "Practical Granite Mouse",
+    "color": "pink",
+    "price": 856.45,
+    "numberInStock": 4,
+    "isInStock": true
+  }
+]
