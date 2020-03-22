@@ -1,13 +1,21 @@
 import * as faker from "faker";
 import * as fs from "fs";
 
-const products = [];
+interface Product {
+  name: string;
+  color: string;
+  price: number;
+  numberInStock: number;
+  isInStock: boolean;
+}
 
-for (let i = 0; i < 20; i++) {
+const products: Product[] = [];
+
+for (let i: number = 0; i < 20; i++) {
   const product = {
     name: faker.commerce.productName(),
     color: faker.commerce.color(),
-    price: parseFloat((Math.random() * 901 + 100).toFixed(2)),
+    price: parseFloat((Math.random() * 900 + 100).toFixed(2)),
     numberInStock: Math.floor(Math.random() * 5),
     isInStock: false
   };
@@ -17,9 +25,9 @@ for (let i = 0; i < 20; i++) {
   products.push(product);
 }
 
-const jsonProducts = JSON.stringify(products);
+const jsonProducts: string = JSON.stringify(products);
 
-fs.writeFile("products.json", jsonProducts, err => {
+fs.writeFile("products.json", jsonProducts, (err: Error) => {
   if (err) {
     console.log(err);
   }
