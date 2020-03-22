@@ -1,5 +1,4 @@
 import * as faker from "faker";
-import * as fs from "fs";
 
 interface Product {
   name: string;
@@ -9,9 +8,9 @@ interface Product {
   isInStock: boolean;
 }
 
-const products = [];
+const products: Product[] = [];
 
-for (let i: number = 0; i < 20; i++) {
+for (let i = 0; i < 20; i++) {
   const product = {
     name: faker.commerce.productName(),
     color: faker.commerce.color(),
@@ -22,17 +21,11 @@ for (let i: number = 0; i < 20; i++) {
 
   product.isInStock = product.numberInStock > 0;
 
-  function validateProduct(): Product {
+  const validateProduct = (product: Product) => {
     return product;
-  }
+  };
 
-  products.push(validateProduct());
+  products.push(validateProduct(validateProduct(product)));
 }
 
-const jsonProducts: string = JSON.stringify(products);
-
-fs.writeFile("products.json", jsonProducts, (err: Error) => {
-  if (err) {
-    console.log(err);
-  }
-});
+console.log(products);
