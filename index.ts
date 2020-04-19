@@ -9,14 +9,15 @@ interface Product {
 }
 
 const products: Product[] = [];
+// const products: Array<Product> = [];
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 10; i++) {
   const product = {
     name: faker.commerce.productName(),
     color: faker.commerce.color(),
     price: parseFloat((Math.random() * 900 + 100).toFixed(2)),
     numberInStock: Math.floor(Math.random() * 5),
-    isInStock: false
+    isInStock: false,
   };
 
   product.isInStock = product.numberInStock > 0;
@@ -25,7 +26,7 @@ for (let i = 0; i < 20; i++) {
     return product;
   };
 
-  products.push(validateProduct(validateProduct(product)));
+  products.push(validateProduct(product));
 }
 
 console.log(products);
