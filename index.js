@@ -1,5 +1,6 @@
 import * as faker from "faker";
-const products = [];
+const productsInStock = [];
+const productsOutOfStock = [];
 // const products: Array<Product> = [];
 for (let i = 0; i < 10; i++) {
     const product = {
@@ -10,9 +11,15 @@ for (let i = 0; i < 10; i++) {
         isInStock: false,
     };
     product.isInStock = product.numberInStock > 0;
-    const validateProduct = (product) => {
-        return product;
-    };
-    products.push(validateProduct(product));
+    // const validateProduct = (product: Product) => {
+    //   return product;
+    // };
+    if (product.isInStock) {
+        productsInStock.push(product);
+    }
+    else {
+        productsOutOfStock.push(product);
+    }
 }
-console.log(products);
+console.log("In Stock:", productsInStock);
+console.log("Out of Stock:", productsOutOfStock);

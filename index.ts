@@ -1,6 +1,6 @@
 import * as faker from "faker";
 
-interface Product {
+export interface Product {
   name: string;
   color: string;
   price: number;
@@ -8,7 +8,8 @@ interface Product {
   isInStock: boolean;
 }
 
-const products: Product[] = [];
+const productsInStock: Product[] = [];
+const productsOutOfStock: Product[] = [];
 // const products: Array<Product> = [];
 
 for (let i = 0; i < 10; i++) {
@@ -22,11 +23,13 @@ for (let i = 0; i < 10; i++) {
 
   product.isInStock = product.numberInStock > 0;
 
-  const validateProduct = (product: Product) => {
-    return product;
-  };
+  if (product.isInStock) {
+    productsInStock.push(product);
+  } else {
+    productsOutOfStock.push(product);
+  }
 
-  products.push(validateProduct(product));
 }
 
-console.log(products);
+console.log("In Stock:", productsInStock);
+console.log("Out of Stock:", productsOutOfStock);
