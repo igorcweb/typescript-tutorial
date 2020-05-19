@@ -1,13 +1,13 @@
-const obj = {
-    a: 123,
-    b: "abc",
-    c: true,
+var john = {
+    name: 'John Doe',
+    age: 22,
+    canDrink: function (age) {
+        return age >= 21;
+    }
 };
-const validateObj = (obj) => {
-    return obj.a;
-};
-validateObj(obj);
-console.log("test");
-let a = "1";
-a = 1;
-console.log(typeof a, a);
+console.log(john.canDrink(john.age));
+// const validateObj = (obj: IObject) => {
+//   return obj;
+// };
+// validateObj(obj);
+// console.log("test");

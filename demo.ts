@@ -1,19 +1,29 @@
-export interface IObject {
-  a: number;
-  b: string;
-  c?: boolean;
+interface Person {
+  name: string,
+  age: number,
+  canDrink(age: number): boolean
 }
 
-const obj = {
-  a: 123,
-  b: "abc",
-  // c: true,
+const john: Person = {
+  name: 'John Doe',
+  age: 20,
+  canDrink(age) {
+    return age >= 21
+  }
 };
 
-const validateObj = (obj: IObject) => {
-  return obj;
-};
+console.log(john.canDrink(john.age));
 
-validateObj(obj);
+// let name: string;
+// name = 'John';
 
-console.log("test");
+// let age = 22;
+
+
+// let isTrue: boolean = true;
+
+// isTrue = false;
+
+// function sayHi(): void {
+//   console.log("Hi");
+// }

@@ -9,8 +9,7 @@ export interface Product {
 }
 
 const productsInStock: Product[] = [];
-const productsOutOfStock: Product[] = [];
-// const products: Array<Product> = [];
+const productsOutOfStock: Array<Product> = []; //array notation using genericss
 
 for (let i = 0; i < 10; i++) {
   const product = {
