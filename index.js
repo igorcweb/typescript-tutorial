@@ -2,8 +2,7 @@
 exports.__esModule = true;
 var faker = require("faker");
 var productsInStock = [];
-var productsOutOfStock = [];
-// const products: Array<Product> = [];
+var productsOutOfStock = []; //array notation using generics
 for (var i = 0; i < 10; i++) {
     var product = {
         name: faker.commerce.productName(),

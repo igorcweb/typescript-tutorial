@@ -1,15 +1,14 @@
 interface Person {
   name: string,
   age: number,
-  canDrink(age: number): boolean
+  canDrink: (age: number) => boolean
 }
 
 const john: Person = {
   name: 'John Doe',
   age: 20,
-  canDrink(age) {
-    return age >= 21
-  }
+  canDrink: age => age >= 21
+
 };
 
 console.log(john.canDrink(john.age));
