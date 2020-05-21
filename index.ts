@@ -26,7 +26,6 @@ for (let i = 0; i < 10; i++) {
 
   product.isInStock = product.numberInStock > 0;
 
-
   if (productIsInStock(product)) {
     productsInStock.push(product);
   } else {
