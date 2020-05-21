@@ -11,6 +11,8 @@ const john: Person = {
 
 };
 
+john.age = 21
+
 console.log(john.canDrink(john.age));
 
 // let name: string;

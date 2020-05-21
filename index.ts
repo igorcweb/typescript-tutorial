@@ -1,6 +1,6 @@
 import * as faker from "faker";
 
-export interface Product {
+interface Product {
   name: string;
   color: string;
   price: number;
@@ -11,22 +11,29 @@ export interface Product {
 const productsInStock: Product[] = [];
 const productsOutOfStock: Array<Product> = []; //array notation using generics
 
+function productIsInStock(product: Product): boolean {
+  return product.isInStock;
+}
+
 for (let i = 0; i < 10; i++) {
   const product = {
     name: faker.commerce.productName(),
     color: faker.commerce.color(),
-    price: parseFloat((Math.random() * 900 + 100).toFixed(2)),
+    price: parseInt(faker.commerce.price()) + .99,
     numberInStock: Math.floor(Math.random() * 5),
     isInStock: false,
   };
 
   product.isInStock = product.numberInStock > 0;
 
-  if (product.isInStock) {
+
+  if (productIsInStock(product)) {
     productsInStock.push(product);
   } else {
     productsOutOfStock.push(product);
   }
+
+
 
 }
 
